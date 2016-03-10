@@ -1,0 +1,6 @@
+target
+.idea
+*.iml
+server-work
+dependency-reduced-pom.xml
+*.ldif

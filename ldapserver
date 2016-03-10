@@ -1,0 +1,6 @@
+#!/bin/bash
+JARFILE=target/ldapserver-0.1.0-SNAPSHOT.jar
+if [ ! -f $JARFILE ]; then
+  mvn package > /dev/null
+fi
+java -jar $JARFILE $@
